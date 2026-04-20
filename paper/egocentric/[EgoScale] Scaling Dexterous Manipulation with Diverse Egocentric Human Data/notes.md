@@ -1,0 +1,50 @@
+---
+title: "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data"
+arxiv_id: "2602.16710"
+category: "egocentric"
+short_name: "EgoScale"
+published: "2026-02-18T18:59:05Z"
+authors: "Ruijie Zheng, Dantong Niu, Yuqi Xie, Jing Wang, Mengda Xu, Yunfan Jiang, Fernando Castañeda, Fengyuan Hu"
+status: "imported"
+---
+# 一句话总结
+
+[阅读后填写。]
+
+# 论文类型
+
+- [ ] dataset
+- [ ] policy
+- [ ] world model
+- [ ] benchmark
+- [ ] video model
+- [ ] system
+- [ ] survey
+- [ ] theory
+
+# 核心贡献
+
+- 
+
+# 这篇文章为什么重要
+
+- 
+
+# 对我当前研究的启发
+
+- VLA:
+- world model:
+- UMI:
+- video for embodiment:
+
+# 局限与问题
+
+- 
+
+# 后续问题
+
+- 
+
+# 原始摘要
+
+Human behavior is among the most scalable sources of data for learning physical intelligence, yet how to effectively leverage it for dexterous manipulation remains unclear. While prior work demonstrates human to robot transfer in constrained settings, it is unclear whether large scale human data can support fine grained, high degree of freedom dexterous manipulation. We present EgoScale, a human to dexterous manipulation transfer framework built on large scale egocentric human data. We train a Vision Language Action (VLA) model on over 20,854 hours of action labeled egocentric human video, more than 20 times larger than prior efforts, and uncover a log linear scaling law between human data scale and validation loss. This validation loss strongly correlates with downstream real robot performance, establishing large scale human data as a predictable supervision source. Beyond scale, we introduce a simple two stage transfer recipe: large scale human pretraining followed by lightweight aligned human robot mid training. This enables strong long horizon dexterous manipulation and one shot task adaptation with minimal robot supervision. Our final policy improves average success rate by 54% over a no pretraining baseline using a 22 DoF dexterous robotic hand, and transfers effectively to robots with lower DoF hands, indicating that large scale human motion provides a reusable, embodiment agnostic motor prior.

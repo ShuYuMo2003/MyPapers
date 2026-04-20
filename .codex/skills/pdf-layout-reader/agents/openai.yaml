@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Layout Reader"
+  short_description: "Extract a temporary layout.md from a local PDF"
+  default_prompt: "Read a local PDF, generate a temporary layout.md, and return the path for downstream analysis"

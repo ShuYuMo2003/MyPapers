@@ -1,0 +1,4 @@
+interface:
+  display_name: "Embodied Paper Summary"
+  short_description: "Summarize paper layouts around embodied AI research interests"
+  default_prompt: "Read the provided layout file and write a concise Chinese paper report focused on embodied AI, VLA, video generation, manipulation, and transferable ideas"

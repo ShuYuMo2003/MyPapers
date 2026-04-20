@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Reading Notes"
+  short_description: "Discuss a paper and keep concise notes beside its layout."
+  default_prompt: "Use $paper-reading-notes to open this paper layout, discuss key points with me, and keep concise notes in notes.md."

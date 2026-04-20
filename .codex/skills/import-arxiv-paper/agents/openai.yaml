@@ -1,0 +1,4 @@
+interface:
+  display_name: "Import arXiv Paper"
+  short_description: "Import, classify, and note arXiv papers."
+  default_prompt: "Use $import-arxiv-paper to import an arXiv paper into my knowledge base and write a research note about its relevance."
