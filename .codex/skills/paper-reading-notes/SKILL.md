@@ -22,8 +22,10 @@ Prefer the most explicit source first:
 
 - A user-provided `layout.md` path
 - A user-provided paper folder path that contains `layout.md`
+- The paper currently open in the IDE or editor, when a specific paper tab or paper-folder tab is clearly visible in context
 - A paper folder or `layout.md` already established in the current conversation
 
+If multiple open tabs are visible, prefer the one that most clearly points to a paper folder containing `layout.md` or `notes.md`.
 If the paper cannot be identified safely, ask a short clarifying question.
 
 ## Reading Behavior
@@ -74,14 +76,16 @@ Useful note types include:
 
 ## Notes Format
 
-Use a readable study-note structure rather than a terse log when the user asks for a summary. For example:
+Use a readable study-note structure rather than a terse log when the user asks for a summary. Keep the structure simple and optimized for rereading. A good default is:
 
 ```markdown
 # Notes
 
+## 3-Minute Version
+- ...
+
 ## Paper
-- Title: ...
-- Folder: ...
+- A small table with title / folder / quick feeling
 
 ## Quick Take
 - ...
@@ -92,21 +96,25 @@ Use a readable study-note structure rather than a terse log when the user asks f
 ## Method
 - ...
 
+## Teleoperation Flow
+- ...
+
 ## Experiments
 - ...
 
-## My Questions
-- ...
-
-## Useful Table
+## One Useful Table
 | Topic | What the paper says | My plain-language take |
 | --- | --- | --- |
 | ... | ... | ... |
+
+## Overall Takeaway
+- ...
 ```
 
 Do not force every category to appear every time. Adapt the structure to what will help the user revisit the paper later.
 Tables are encouraged when comparing tasks, contributions, assumptions, baselines, or caveats.
 Use **bold** for key claims, *italics* for soft emphasis, and short labels that make scanning easy.
+When helpful, start with a very short `3-Minute Version` so the user can re-enter the paper quickly before reading the longer notes.
 
 When the user highlights a sentence from the paper, save only the minimal quote needed plus a brief note on why it matters.
 
