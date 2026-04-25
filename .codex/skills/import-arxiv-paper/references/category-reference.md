@@ -28,6 +28,10 @@ Use for first-person or wearable-view papers centered on egocentric perception, 
 
 Use for papers the user explicitly groups under the UMI research track, especially manipulation, demonstration, imitation, teleoperation, or data/interface work that feeds into that line of work.
 
+### trick
+
+Use for papers the user explicitly groups under a practical trick or technique bucket, especially reusable engineering ideas, training tricks, optimization heuristics, or compact method insights that may transfer across projects.
+
 ## Adding New Categories
 
 When a new category appears:
