@@ -32,6 +32,10 @@ Use for papers the user explicitly groups under the UMI research track, especial
 
 Use for papers the user explicitly groups under a practical trick or technique bucket, especially reusable engineering ideas, training tricks, optimization heuristics, or compact method insights that may transfer across projects.
 
+### pi
+
+Use for papers the user explicitly groups under the PI research track or project bucket.
+
 ## Adding New Categories
 
 When a new category appears:
